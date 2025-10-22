@@ -19,4 +19,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/GHA-NodeJs:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/gha-nodejs:latest
